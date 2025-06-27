@@ -19,3 +19,6 @@ sources:
         description: Nacionalidades
       - name: region
         description: Regiones
+      - name: partsupp
+        description: Relationship table between parts and suppliers. Each record indicates a part supplied
+          by a specific supplier, along with the available quantity and supply cost.
