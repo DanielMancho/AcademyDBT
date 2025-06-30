@@ -6,19 +6,19 @@ sources:
     schema: TPCH_SF1
     tables:
       - name: customer
-        description: Información de los clientes
+        description: Customer information including demographics and account balance.
       - name: orders
-        description: Pedidos realizados por clientes
+        description: Orders placed by customers
       - name: lineitem
-        description: Detalle de los ítems por pedido
+        description: Line items for each order, including quantity and price info.
       - name: part
-        description: Productos disponibles
+        description: Details about the parts that are sold.
       - name: supplier
-        description: Proveedores de productos
+        description: Supplier information, including nation and contact data.
       - name: nation
-        description: Nacionalidades
+        description: Nations referenced by customers and suppliers.
       - name: region
-        description: Regiones
+        description: Regions that group nations together.
       - name: partsupp
         description: Relationship table between parts and suppliers. Each record indicates a part supplied
           by a specific supplier, along with the available quantity and supply cost.
